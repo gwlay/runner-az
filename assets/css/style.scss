@@ -20,10 +20,11 @@ header{
     gap: 10px;
 
     p{
-        padding: 16px 30px 0 0;
+        padding: 18px 30px 0 0;
         font-size: 14px;
         font-weight: bold;
     }
+    
 
     .icons{
         display: flex;
@@ -38,6 +39,16 @@ header{
     display: flex;
     gap: 25px;
     font-size: 15px;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
 
     .phone {
         display: flex;
@@ -48,4 +59,97 @@ header{
         }
         }
 
+        .email{
+            span:hover{
+                text-decoration: underline;
+            }
+        }
+
     }
+
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+    .change_language{
+        padding-top: 7px;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            padding: 0 8px;
+            font-size: 13px;
+            line-height: 24px;
+            font-weight: bold;
+            color: black ;
+        }
+    }
+
+    .select{
+        display: none;
+
+        a{
+            display: block;
+            height: 24px;
+            padding: 0 8px;
+            font-size: 13px;
+            line-height: 24px;
+            font-weight: bold; 
+            text-decoration: none;
+            color: black;
+        }
+        
+    }
+    .left-side{
+        display: flex;
+        gap: 20px;
+
+        .img{
+            display: flex;
+            gap: 10px;        
+        }
+
+    }
+    .right-side{
+        display: flex;
+        gap: 20px;
+
+        .signin{
+            font-size: 15px;
+            font-weight: bold;
+            color: #f8172f;
+            text-decoration: none;
+            margin: 0 0 0 14px;
+            padding-top: 10px;
+        }
+
+        .button{
+            text-decoration: none;
+            background-color: red;
+            color: #fff;
+            padding: 0 25px;
+            line-height: 38px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        #nav ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 10px;
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

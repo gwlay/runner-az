@@ -20,7 +20,7 @@ header {
   gap: 10px;
 }
 .social-links p {
-  padding: 16px 30px 0 0;
+  padding: 18px 30px 0 0;
   font-size: 14px;
   font-weight: bold;
 }
@@ -36,6 +36,14 @@ header {
   display: flex;
   gap: 25px;
   font-size: 15px;
+  cursor: pointer;
+}
+.contacts a {
+  text-decoration: none;
+  color: black;
+}
+.contacts a:hover {
+  text-decoration: underline;
 }
 .contacts .phone {
   display: flex;
@@ -43,4 +51,83 @@ header {
 }
 .contacts .phone i {
   padding-top: 3px;
+}
+.contacts .email span:hover {
+  text-decoration: underline;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.bottom-header .change_language {
+  padding-top: 7px;
+  cursor: pointer;
+}
+.bottom-header .change_language a {
+  text-decoration: none;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+}
+.bottom-header .select {
+  display: none;
+}
+.bottom-header .select a {
+  display: block;
+  height: 24px;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.bottom-header .left-side {
+  display: flex;
+  gap: 20px;
+}
+.bottom-header .left-side .img {
+  display: flex;
+  gap: 10px;
+}
+.bottom-header .right-side {
+  display: flex;
+  gap: 20px;
+}
+.bottom-header .right-side .signin {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f8172f;
+  text-decoration: none;
+  margin: 0 0 0 14px;
+  padding-top: 10px;
+}
+.bottom-header .right-side .button {
+  text-decoration: none;
+  background-color: red;
+  color: #fff;
+  padding: 0 25px;
+  line-height: 38px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.bottom-header .right-side #nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.bottom-header .right-side #nav ul li {
+  list-style-type: none;
+}
+.bottom-header .right-side #nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
