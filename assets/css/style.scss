@@ -68,6 +68,9 @@ header {
   display: flex;
   justify-content: space-between;
   height: 40px;
+  // position: fixed;
+  // width: 100%;
+  background-color: #fff;
 
   .change_language {
     padding-top: 7px;
@@ -387,6 +390,130 @@ header {
       img {
         max-width: 434px;
       }
+    }
+  }
+}
+
+footer {
+  .footer {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    padding-top: 50px;
+  }
+
+  .top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 45px;
+
+    .apps-side {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        display: block;
+        height: 40px;
+        padding: 0 0 0 50px;
+        text-decoration: none;
+        color: #000;
+
+        p {
+          color: gray;
+          padding: 0 0 3px;
+          display: block;
+          font-size: 13px;
+          b {
+            color: black;
+            display: block;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .runner {
+        display: flex;
+        padding: 0 0 0 50px;
+        gap: 10px;
+
+        img {
+          width: 40px;
+          height: 40px;
+          align-items: center;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .footer-nav {
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+
+        li {
+          a {
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+
+.second-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 0 30px 45px;
+}
+.social-links {
+  display: flex;
+  gap: 10px;
+
+  p {
+    padding: 18px 30px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .icons {
+    display: flex;
+    gap: 20px;
+    font-size: 11px;
+    color: black;
+    align-items: center;
+  }
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 20px;
+  border-top: 1px solid #e3e3e3;
+  .text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .design {
+    display: flex;
+    gap: 10px;
+    p {
+      font-size: 14px;
+      color: #333;
+    }
+    span {
+      font-weight: bold;
+    }
+    img {
+      width: 20px;
+      height: 20px;
     }
   }
 }
